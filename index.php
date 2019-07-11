@@ -11,7 +11,6 @@ $update = json_decode($content, true);
 $msg = $update["message"];
 $chatID = $update["message"]["chat"]["id"];
 $user_id = $update["message"]["message_id"];
-$ heroku git:remote -a app-devilz
 ///////////////////////////////////////////////
 
 //FUNZIONI
