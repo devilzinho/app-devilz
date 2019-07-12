@@ -1,4 +1,5 @@
-<?php 
+ <?php 
+ 
 $api = $_GET['api'];
 $content = file_get_contents("php://input");
 $update = json_decode($content, true);
@@ -8,6 +9,7 @@ $update = json_decode($content, true);
 
 
 //VARIABILI
+
 $msg = $update["message"];
 $chatID = $update["message"]["chat"]["id"];
 $user_id = $update["message"]["message_id"];
@@ -25,7 +27,6 @@ if($reply != NULL) {
 else {	
 	$r = file_get_contents('https://api.telegram.org/'.$api.'/sendMessage?chat_id='.$chatID.'&text='.$text); }
 }
-
 //funzione per mandare una foto
 function sf($chatID, $photo, $reply) {
 global $api;
@@ -36,12 +37,8 @@ if($reply != NULL) {
 else {	
 	$r = file_get_contents('https://api.telegram.org/'.$api.'/sendPhoto?chat_id='.$chatID.'&photo='.$photo); }
 } 
-
-
 ///////////////////////////////////////////////////////////////////////////
 //AZIONI 
-
-
 if(array_key_exists("text", $msg)){ 
     $text = strtolower($update["message"]["text"]); //non modificare
 	
