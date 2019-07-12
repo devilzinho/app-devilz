@@ -42,10 +42,10 @@ else {
 if(array_key_exists("text", $msg)){ 
     $text = strtolower($update["message"]["text"]); //non modificare
 	
-    if($text == "/start") {
+    if ($text == "/start") {
 	$out = sm($chatID, "Bot realizzato da Devilz per @lasagnevtortellini", NULL); } //NULL per mandare il messaggio senza reply
 
-   if($text == "Ciao") {
+   if ($text == "Ciao") {
 	$out = sm($chatID, "Ciao a te!"); } //NULL per mandare il messaggio senza reply
    
    
