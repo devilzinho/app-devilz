@@ -45,6 +45,7 @@ if(array_key_exists("text", $msg)){
     if ($text == "/start") {
 	$out = sm($chatID, "Bot realizzato da Devilz per @lasagnevtortellini", NULL); } //NULL per mandare il messaggio senza reply
 
+    
     if ($text == "diocane") {
 	$out = sm($chatID, "Ciao a te!", NULL); } //NULL per mandare il messaggio senza reply
    
@@ -53,5 +54,8 @@ if(array_key_exists("text", $msg)){
 	$photo = 'https://www.miciogatto.it/new/wp-content/uploads/2018/02/Linguaggio-dei-gatti-come-capire-un-gatto-1030x587.jpg'; //url della foto
 	$out = sf($chatID, $photo, NULL);}
 	
+    if ($text == "ok") {
+	$out = sm($chatID, "Perché sei così scostante?", NULL); } //NULL per mandare il messaggio senza reply
+    
 }
 ?>
