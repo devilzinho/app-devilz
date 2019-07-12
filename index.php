@@ -1,3 +1,26 @@
+ <?php 
+ 
+$api = $_GET['api'];
+$content = file_get_contents("php://input");
+$update = json_decode($content, true);
+/////////////////////////////////////////////
+///////////////////// Parte da api.telegram.org //////////////////////////
+////////////
+
+
+//VARIABILI
+
+$msg = $update["message"];
+$chatID = $update["message"]["chat"]["id"];
+$user_id = $update["message"]["message_id"];
+///////////////////////////////////////////////
+
+//FUNZIONI
+
+//funzione per mandare un messaggio di testo
+function sm($chatID, $text, $reply) {
+global $api;
+global $update;
 if($reply != NULL) {
 	$r = file_get_contents('https://api.telegram.org/'.$api.'/sendMessage?chat_id='.$chatID.'&text='.$text.'&reply_to_message_id='.$reply);	
 }
