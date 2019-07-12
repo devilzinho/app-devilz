@@ -61,3 +61,4 @@ if(array_key_exists("text", $msg)){
 	$out = sf($chatID, $photo, NULL);}
 	
 }
+?>
