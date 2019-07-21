@@ -57,5 +57,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "ciao") {
 	$out = sm($chatID, "No", NULL); } //NULL per mandare il messaggio senza reply
     
+    if ($text == "micine") {
+	$out = sm($chatID, "Uttio pigul ine on line?", NULL); } //NULL per mandare il messaggio senza reply
+   
 }
 ?>
