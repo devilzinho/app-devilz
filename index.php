@@ -64,7 +64,7 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Cosc ine on line?", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "Luca") {
-	$out = sm($chatID, "Sono esterrefatto dalla mediocrità dei vostri argomenti", NULL); } //NULL per mandare il messaggio senza reply
+	$out = sm($chatID, "Sono esterrefatto dalla mediocrita’ dei vostri argomenti", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "Ciao") {
 	$out = sm($chatID, "No", NULL); } //NULL per mandare il messaggio senza reply
