@@ -1,4 +1,4 @@
- <?php 
+<?php 
  
 $api = $_GET['api'];
 $content = file_get_contents("php://input");
@@ -46,43 +46,16 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Bot realizzato da Devilz per @lasagnevtortellini", NULL); } //NULL per mandare il messaggio senza reply
 
     
-    if ($text == "Mauro") {
-	$out = sm($chatID, "Frocio", NULL); } //NULL per mandare il messaggio senza reply
+    if ($text == "diocane") {
+	$out = sm($chatID, "Ciao a te!", NULL); } //NULL per mandare il messaggio senza reply
    
    
-    if ($text == "impossibilubrhh") {
+    if ($text == "gatto") {
 	$photo = 'https://www.miciogatto.it/new/wp-content/uploads/2018/02/Linguaggio-dei-gatti-come-capire-un-gatto-1030x587.jpg'; //url della foto
 	$out = sf($chatID, $photo, NULL);}
 	
-    if ($text == "Devilz") {
-	$out = sm($chatID, "Non nominare il nome di Dio invano"); } //NULL per mandare il messaggio senza reply
+    if ($text == "ok") {
+	$out = sm($chatID, "Perché sei così scostante?", NULL); } //NULL per mandare il messaggio senza reply
     
-    if ($text == "Micina") {
-	$out = sm($chatID, "Uttio pigule", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Coscine") {
-	$out = sm($chatID, "Cosc ine on line?", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Luca") {
-	$out = sm($chatID, "Sono esterrefatto dalla mediocrita’ dei vostri argomenti", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Ciao") {
-	$out = sm($chatID, "No", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Ciao a tutti") {
-	$out = sm($chatID, "Esci diocane", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Tortellini") {
-	$out = sm($chatID, "Schifo"); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Lasagne") {
-	$out = sm($chatID, "Regnano sovrane!"); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Buongiornissimo") {
-	$out = sm($chatID, "KAFFETTINO?", NULL); } //NULL per mandare il messaggio senza reply
-
-    if ($text == "Buonanotte") {
-	$out = sm($chatID, "No", NULL); } //NULL per mandare il messaggio senza reply
-
 }
 ?>
