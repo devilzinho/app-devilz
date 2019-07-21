@@ -50,7 +50,7 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Frocio", NULL); } //NULL per mandare il messaggio senza reply
    
    
-    if ($text == "impossibilubrh") {
+    if ($text == "impossibilubrhh") {
 	$photo = 'https://www.miciogatto.it/new/wp-content/uploads/2018/02/Linguaggio-dei-gatti-come-capire-un-gatto-1030x587.jpg'; //url della foto
 	$out = sf($chatID, $photo, NULL);}
 	
