@@ -79,7 +79,7 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Regnano sovrane!"); } //NULL per mandare il messaggio senza reply
 
     if ($text == "Buongiornissimo") {
-	$out = sm($chatID, “KAFFETTINO?", NULL); } //NULL per mandare il messaggio senza reply
+	$out = sm($chatID, "KAFFETTINO?", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "Buonanotte") {
 	$out = sm($chatID, "No", NULL); } //NULL per mandare il messaggio senza reply
