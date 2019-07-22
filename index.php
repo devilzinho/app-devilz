@@ -66,5 +66,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "tortellini") {
 	$out = sm($chatID, "Fai schifo, esci", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "lasagne") {
+	$out = sm($chatID, "Lasagne über alles", NULL); } //NULL per mandare il messaggio senza reply
+
 }
 ?>
