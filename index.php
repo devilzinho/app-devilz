@@ -75,5 +75,11 @@ if(array_key_exists("text", $msg)){
     if ($text == "luca") {
 	$out = sm($chatID, "Sono esterrefatto dalla mediocrità dei vostri argomenti", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "gabro") {
+	$out = sm($chatID, "Il peggior founder della storia", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "pipino") {
+	$out = sm($chatID, "È nudo", NULL); } //NULL per mandare il messaggio senza reply
+
 }
 ?>
