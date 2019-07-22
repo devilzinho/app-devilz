@@ -50,8 +50,8 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Non nominare il nome di Dio invano!", NULL); } //NULL per mandare il messaggio senza reply
    
    
-    if ($text == "gatto") {
-	$photo = 'https://www.miciogatto.it/new/wp-content/uploads/2018/02/Linguaggio-dei-gatti-come-capire-un-gatto-1030x587.jpg'; //url della foto
+    if ($text == "niente") {
+	$photo = 'https://media1.tenor.com/images/fc179b75c643166bb90a81829c06da31/tenor.gif?itemid=13782806'; //url della foto
 	$out = sf($chatID, $photo, NULL);}
 	
     if ($text == "ciao") {
