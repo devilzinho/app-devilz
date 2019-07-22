@@ -70,7 +70,7 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Lasagne über alles", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "buongiorno") {
-	$out = sm($chatID, "Buongiorno al cazzo!"); } 
+	$out = sm($chatID, "Buongiorno al cazzo!", NULL); } 
 
 }
 ?>
