@@ -51,7 +51,7 @@ if(array_key_exists("text", $msg)){
    
    
     if ($text == "niente") {
-	$photo = 'https://media1.tenor.com/images/fc179b75c643166bb90a81829c06da31/tenor.gif?itemid=13782806'; //url della foto
+	$photo = 'https://66.media.tumblr.com/656909d1b2864f26fb61ae126a20cfb0/tumblr_inline_pjfp2uyEWf1uli3vd_540.png'; //url della foto
 	$out = sf($chatID, $photo, NULL);}
 	
     if ($text == "ciao") {
