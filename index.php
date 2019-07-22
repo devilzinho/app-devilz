@@ -72,5 +72,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "buongiorno") {
 	$out = sm($chatID, "Buongiorno al cazzo!", NULL); } 
 
+    if ($text == "luca") {
+	$out = sm($chatID, "Sono esterrefatto dalla mediocrità dei vostri argomenti", NULL); } //NULL per mandare il messaggio senza reply
+
 }
 ?>
