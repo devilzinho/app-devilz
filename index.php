@@ -81,5 +81,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "pipino") {
 	$out = sm($chatID, "È nudo", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "za") {
+	$out = sm($chatID, "Ffo’", NULL); } //NULL per mandare il messaggio senza reply
+
 }
 ?>
