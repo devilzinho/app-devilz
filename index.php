@@ -82,7 +82,22 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "È nudo", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "za") {
-	$out = sm($chatID, "Ffo’", NULL); } //NULL per mandare il messaggio senza reply
+	$out = sm($chatID, "Fo", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "ciao a tutti") {
+	$out = sm($chatID, "Esci", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "salve") {
+	$out = sm($chatID, "Vai via", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "si") {
+	$out = sm($chatID, "Si scrive sì, razza di ebreo", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "buonanotte") {
+	$out = sm($chatID, "Che tu possa non svegliarti più", NULL); } //NULL per mandare il messaggio senza reply
+
+
+
 
 }
 ?>
