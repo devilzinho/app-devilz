@@ -91,7 +91,7 @@ if(array_key_exists("text", $msg)){
 	$out = sm($chatID, "Vai via", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "si") {
-	$out = sm($chatID, "Si scrive sì, razza di ebreo", NULL); } //NULL per mandare il messaggio senza reply
+	$out = sm($chatID, "Si scrive sì, rifiuto della società!", NULL); } //NULL per mandare il messaggio senza reply
 
     if ($text == "buonanotte") {
 	$out = sm($chatID, "Che tu possa non svegliarti più", NULL); } //NULL per mandare il messaggio senza reply
