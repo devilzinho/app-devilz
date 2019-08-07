@@ -96,7 +96,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "buonanotte") {
 	$out = sm($chatID, "Che tu possa non svegliarti più", NULL); } //NULL per mandare il messaggio senza reply
 
-
+    if ($text == "xd") {
+	$out = sm($chatID, "> scrive xd > è uno scarto umano radioattivo", NULL); } //NULL per mandare il messaggio senza reply
 
 
 }
