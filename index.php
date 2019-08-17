@@ -99,6 +99,11 @@ if(array_key_exists("text", $msg)){
     if ($text == "xd") {
 	$out = sm($chatID, "> scrive xd > è uno scarto umano radioattivo", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "ma") {
+	$out = sm($chatID, "uro", NULL); } //NULL per mandare il messaggio senza reply
+
+    if ($text == "dio") {
+	$out = sm($chatID, "Devilz", NULL); } //NULL per mandare il messaggio senza reply
 
 }
 ?>
