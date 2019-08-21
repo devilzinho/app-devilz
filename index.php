@@ -105,5 +105,9 @@ if(array_key_exists("text", $msg)){
     if ($text == "dio") {
 	$out = sm($chatID, "Devilz", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "meglio morto") {
+	$out = sm($chatID, "che Mauro", NULL); } //NULL per mandare il messaggio senza reply
+
+
 }
 ?>
