@@ -111,6 +111,8 @@ if(array_key_exists("text", $msg)){
     if ($text == "@devjlz") {
 	$out = sm($chatID, "Hai evocato Dio; spero tu abbia un buon motivo per averlo fatto", NULL); } //NULL per mandare il messaggio senza reply
 
+    if ($text == "lui") {
+	$out = sm($chatID, "Zeb89", NULL); } //NULL per mandare il messaggio senza reply
 
 }
 ?>
